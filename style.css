@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+}
+nav{
+    width: 65%;
+    height: 100%;
+    margin: auto;
+}
+.collection{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item{
+    list-style: none;
+    color: #ddd;
+}
+.item span{
+    font-size: 12px;
+}
+.unisef{
+    background-color: #F5F5F7;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.unisef a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 16px;
+    font-style: 14px;
+}
+.macbook{
+    width: 100%;
+    height: 580px;
+    /*background-image: url(./img/banner1.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+     background-position: center; */
+     background: url(./img/banner1.png) no-repeat center/cover;
+    
+     padding-top: 200px;
+     padding-left: 300px;
+}
+.macbook_text{
+    width: 400px;
+    text-align: center;
+    }
+.macbook_text h1{
+    font-size: 55px;
+}
+
+.link{
+    color: dodgerblue;
+    margin: 0px 18px;
+    text-decoration: none;
+}
+
+.link span{
+    font-size: 18px;
+    transform: translateX(100px);
+}
+.link:hover span{
+    text-decoration: underline;
+}
+.watch{
+    width: 100%;
+    height: 580px;
+
+    background: url(./img/banner3.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.watch h1{
+    font-size: 45px;
+
+}
+.watch h3{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 49.5%;
+    height: 550px;
+    margin: 3px;
+}
+.tt{
+    background: url(./img/banner2.jpg) no-repeat center/cover;
+}
+.iphone13{
+    background: url(./img/001.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.iphone13pro{
+    background: url(./img/002.jpg) no-repeat center/cover;
+}
+.phone{
+    background: url(./img/005.jpg) no-repeat center/cover;
+}
+.mac{
+    
+    background: url(./img/006.jpg) no-repeat center/cover;
+}
+.mac h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+}
+.mac p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: url(./img/logo_hero_mbp13__gdqp6kikbxe2_large.png) no-repeat center/cover;
+}
+.mac img{
+    margin-left: 30%;
+}
+.link span{
+
+}
+
+.ss{
+    text-align: center;
+}
+
+
+.mm{
+    font-size: 50px;
+    color: black;
+}
+.p{
+    font-size: 18px;
+    color: brown;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+.supercharge{
+    width: 100%;
+    height: 580px;
+    text-align: center;
+}
+.supercharge span{
+    color: red;
+    font-size: 54px;
+}
+.supercharge h1{
+    font-size: 54px;
+}
+.supercharge p{
+    font-size: 28px;
+}
+.a{
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+.a:hover{
+    text-decoration: underline;
+
+}
+.iphone13 h1{
+    font-size: 45px;
+
+}
+.iphone13 p{
+    font-size: 20px;
+}
+.eee{
+    background: url(./img/banner2.jpg) no-repeat center/cover;
+}
+.iphone13pro h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+
+}
+.iphone13pro p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.phone h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+
+}
+.phone h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.ss img{
+    background: url(./img/banner3.jpg) no-repeat center/cover;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.box img{
+    background: url(./img/001.jpg) no-repeat center/cover;
+}
+.bb{
+    background: url(./img/banner2.jpg) no-repeat center/cover;
+}
+.bb h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.bb p{
+    font-size: 20px;
+    text-align: center;
+}
+.nn{
+    background: url(./img/banner3.jpg) no-repeat center/cover;
+}
+.nn h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.nn p{
+    text-align: center;
+    font-size: 20px;
+}
+.paragraph1{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-color: rgb(241, 240, 240);
+}
+.text{
+    width: 70%;
+    margin: auto;
+}
+.text p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+.hr{
+    transform: translateX(-48px) translateY(10px) ;
+    width: 90%;
+    margin: auto;
+    color: rgb(117, 117, 117);
+    
+}
+.aa{
+    width: 20%;
+    height: 600px;
+}
+.dd{
+    display: flex;
+}
+.zz{
+    color: black;
+    font-weight: bold;
+}
+.name li{
+    padding: 5px;
+    font-size: 14px;
+    list-style: none;
+    color:#333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.finish p{
+    padding: 5px;
+    margin-left: 200px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(143, 136, 136);
+}
+.finish a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+.finish:hover a{
+    text-decoration: underline;
+}
+.finish hr{
+    width: 90%;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
